@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card</title>
+    <link rel="icon" href="logo.jfif" />
+    <link rel="stylesheet" type="text/css" href="card.css" />
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div class="flex-items">
+        <h1>Kejsi Blushi</h1>
+        <p>Company : TeamSystem</p>
+        <p>Birthday : 05 August 2001</p>
+        <p>City : Tirana</p>
+      </div>
+      <div class="flex-items">
+        <img src="me.jfif" alt="image" />
+      </div>
+      <div class="flex-items">
+        <p>
+          Hi, I'm a Junior DevOps Engineer & currently on Junior React training.
+          Graduated in Bachelor of Business Informatics from Epoka University.
+        </p>
+      </div>
+      <button id="open-button" onclick="openPopup()">More Details ...</button>
+    </div>
+
+    <div id="popup" class="popup">
+      <img src="me.jfif" alt="Profile Photo" />
+      <h2>Kejsi Blushi</h2>
+      <p>Birthday: 05 August 2001</p>
+      <p>City: Tirana</p>
+      <p>
+        Hi, I'm a Junior DevOps Engineer & currently on Junior React training.
+        Graduated in Bachelor of Business Informatics from Epoka University. I'm
+        constantly learning and exploring additionally, my background includes
+        comprehensive training in QA methodologies, with a focus on Selenium for
+        automation testing, ensuring robust and effective quality assurance
+        practices.
+      </p>
+      <button id="close-button" onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="card.js"></script>
+  </body>
+</html>

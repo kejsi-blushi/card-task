@@ -26,7 +26,7 @@ body {
   border: 4px solid rgba(249, 227, 246, 0.301);
   border-radius: 20px;
   padding: 20px 40px 30px;
-  cursor: pointer;
+  cursor: default;
 }
 .flex-items:nth-child(1) {
   flex-direction: column;
